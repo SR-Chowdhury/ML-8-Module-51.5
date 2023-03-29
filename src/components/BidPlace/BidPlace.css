@@ -1,0 +1,22 @@
+.bidPlaceContainer {
+    display: flex;
+}
+
+.playersContainer {
+    margin-left: 113px;
+    margin-right: 24px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 12px;
+    margin-top: 70px;
+}
+
+.bidListContainer {
+    position: sticky;
+    top: 56px;
+    width: 20%;
+    height: 547px;
+    background: #FFE0B3;
+}
